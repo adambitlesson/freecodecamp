@@ -4,8 +4,8 @@ function Stack() {
     console.log(collection);
   };
   // Only change code below this line
-  this.push = function(val) {
-    return collection.push(val);
+  this.push = function(myVal) {
+    return collection.push(myVal);
   };
   this.pop = function() {
     return collection.pop();
